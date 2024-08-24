@@ -3,7 +3,7 @@ Plant watering system using matlab.
 
 a = arduino('COM3','uno');
 
-function (soilmoisture) = MainProject1011(reallyDryValue, moisturethreshold, watersaturatedvalue);
+function (soilmoisture) = MainProject1011(reallyDryValue, moisturethreshold, watersaturatedValue);
 
 %Define Constant
 reallyDryValue = 3.4;
